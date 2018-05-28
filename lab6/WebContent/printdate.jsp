@@ -1,0 +1,1 @@
+<% out.print("Today is:"+ (new java.util.Date()).toString() ); %>  
