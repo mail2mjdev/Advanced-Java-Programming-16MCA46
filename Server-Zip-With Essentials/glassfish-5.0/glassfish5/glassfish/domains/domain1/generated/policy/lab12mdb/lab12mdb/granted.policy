@@ -1,0 +1,7 @@
+/* AUTOMATICALLY GENERATED ON Thu May 17 16:21:40 IST 2018*/
+/* DO NOT EDIT */
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "EchoMDB", "**";
+};
+

@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Thu May 17 11:15:04 IST 2018*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "Addition", "add,Remote,int,int";
+  permission javax.security.jacc.EJBMethodPermission "Addition", "add,Local,int,int";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "Addition", "**";
+};
+
